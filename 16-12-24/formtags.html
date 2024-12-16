@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>telangana bus pass application</title>
+</head>
+<body>
+    <center>
+    <form method="get" autoplay="off">
+        <fieldset>
+      <h1>TELANGANA STATE ROAD TRANSPORT CORPORAION </h1> 
+      <h1>GENERAL BUS PASS APPLICATION</h1> 
+        </fieldset>
+    </center>
+     <fieldset>
+    <legend>applicant details</legend>
+    <label for="username">name</label>
+    <input type="text" name="name" id="name" required>
+    <div style="text-align: right;">
+    <label for="username">Father's/Guardian's Name:</label>
+    <input type="text" name="name"id="name" required> 
+    <br>
+    <br>
+    </div>
+    <div style="text-align: left;">
+        <label for="username"> Date of Birth: </label>
+        <input type="datetime-local" name="dob" required>   
+     </div>
+     <div style="text-align: right;">
+        <label for="username">gender</label>
+        <input type="radio" name="gender" value="male" required>male
+        <input type="radio" name="gender" value="female" required>female
+        <br>
+        <br>
+     </div>
+     <div style="text-align: left;">
+        <label>Age as on:</label>
+        <input type="text" required>
+        <div style="text-align: right;">
+            <label>Aadhar No:</label>
+            <input type="text" required pattern="\d{12}">
+            <br>
+            <br>
+        </div>
+        <div style="text-align: left;">
+            <label>WhatsApp No:</label>
+            <input type="text" required pattern="\d{10}">
+        </div>
+        
+
+        <div style="text-align: right;">
+            <label>Email ID:</label>
+            <input type="email" name="mail" required>
+            <br><br>
+        </div>
+        <div style="text-align: left;">
+            <label>Photo:</label>
+            <input type="file" required>
+            <br><br>
+        </div>
+        <fieldset>
+            <legend>Resedential Address Details </legend>
+            <div style="text-align: left;">
+           <label>aplicant address</label>
+           <textarea type="text" required> </textarea>
+            </div>
+            <div style="text-align: right;">
+            <label for="district">district</label>
+            <select id="district" name="district" required>
+                <option value="">select</option>
+                <option value="hyderabad">hyderabad</option>
+                <option value="banglore">banglore</option>
+                <option value="chennai">chennai</option>
+            </select>
+            <br>
+            </div>
+            <div style="text-align: left;">
+            <label for="mandal">mandal</label>
+            <select id="mandal" name="mandal" required>
+                <option value="">select</option>
+                <option value="hyderabad">hyderabad</option>  
+            </select>
+            </div>
+            <div style="text-align: right;">
+                <label>Village</label>
+                <select id="Village" name="Village" required>
+                    <option value="">Select</option>
+                    <option value="hyderabad">Hyderabad</option>
+                </select>
+                <br>
+                </div>
+                <div style="text-align: left;">
+                    <label>Pincode</label>
+                    <input type="text" required pattern="\d{6}">
+                </div>
+                <fieldset>
+                    <legend>Pass Type Details</legend>
+                    <div style="text-align: left;">
+                    <label >city</label>
+                    <select id="city" required>
+                    <option value="hyderabad">hyderabad</option>
+                    </select>
+                    </div>
+                    <br>
+                    <div style="text-align: left;">
+                        <label>Pass Type</label>
+                        <select id="Pass Type" required>
+                            <option value="">Select</option>
+                            <option value="Greater Pass">Greater Pass</option>
+                            <option value="General Ordinary Route Pass MLTY">General Ordinary Route Pass MLTY</option>
+                            <option value="General metro express route pass mtly">General metro express route pass mtly</option>
+                            <option value="Ordinary pass">Ordinary pass</option>
+                            <option value="Metro express pass">Metro express pass</option>
+                            <option value="metro delux pass">metro delux pass</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Mode of payment and pass collection</legend>
+                    <div style="text-align: left;">
+                        <label>Payment Mode</label>
+                        <select id="Payment Mode" required>
+                            <option value="">Select Payment Method</option>
+                            <option value="Payment at counter">Payment at counter</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div style="text-align: left;">
+                        <label>Pass Delivery Mode</label>
+                        <select id="pass delivery mode" required>
+                            <option value="">Select pass delivery mode</option>
+                            <option value="At counter">At counter</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div style="text-align: left;">
+                        <label>Center at which you want to collect</label>
+                        <select id="Center at which you want to collect" required>
+                            <option value="">Select</option>
+                            <option value="RTC ABIDAS-HYD">RTC ABIDAS-HYD</option>
+                            <option value="RTC ARAMGHAR-HYD">RTC ARAMGHAR-HYD</option>
+                            <option value="RTC CBS-HYD">RTC CBS-HYD</option>
+                            <option value="RTC ECIL-HYD">RTC ECIL-HYD</option>
+                            <option value="RTC MGBS-HYD">RTC MGBS-HYD</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <br>
+                <center>
+                <img src="./img.png" width="400"><br><br>
+                <input type="text" pattern="qGphJD">
+                <br>
+                <input type="submit" value="submit">
+                </form>
+                </center>
+            
+
+
+
+                </fieldset>
+          
+
+        </fieldset>
+
+</body>
+</html>
